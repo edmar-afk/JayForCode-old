@@ -1,0 +1,54 @@
+.about-section{
+    background: url(../images/skills.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd00;
+    overflow: hidden;
+    padding: 0;
+    
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #333;
+    padding: 50px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text-about{
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: left;
+    
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}

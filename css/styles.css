@@ -328,7 +328,7 @@ a.white {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(to bottom right, rgb(72, 72, 212), rgba(0, 0, 0, 0.795)), url('../images/bg2.png') no-repeat;
+	background: linear-gradient(to bottom right, rgba(48, 48, 173, 0.822), rgba(0, 0, 0, 0.959)), url('../images/bg2.png') no-repeat;
 	background-size: cover;
 }
 
@@ -337,6 +337,7 @@ a.white {
 	padding-bottom: 7rem;
 	text-align: center;
 }
+
 
 .header .text-container {
 	margin-bottom: 3rem;
@@ -383,7 +384,6 @@ a.white {
 	h1 {
 		font: 700 3.25rem/3.75rem "Montserrat", sans-serif;
 	}
-
 	/* end of general styles */
 
 

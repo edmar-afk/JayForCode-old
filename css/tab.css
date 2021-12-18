@@ -46,3 +46,21 @@
     from {opacity: 0;}
     to {opacity: 1;}
   }
+
+  .card-title{
+    color:#4633af;
+  }
+
+  .card-text{
+    color:#4633af;
+  }
+
+  .text-muted{
+    color: #000;
+    font-weight: 800;
+  }
+
+  .card{
+    border: #000;
+    margin-bottom: 10px;
+  }

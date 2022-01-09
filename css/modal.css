@@ -25,8 +25,8 @@
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgba(0, 0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0); /* Black w/ opacity */
   -webkit-animation-name: ModalfadeIn; /* Fade in the background */
   -webkit-animation-duration: 0.4s;
   animation-name: ModalfadeIn;
@@ -46,7 +46,11 @@
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #4633af;
+  backdrop-filter: blur(17px) saturate(200%);
+  -webkit-backdrop-filter: blur(17px) saturate(200%);
+  background-color: rgba(0, 230, 255, 0.13);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
   margin: auto;
   padding: 0;
   width: 90%;

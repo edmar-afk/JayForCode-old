@@ -35,7 +35,7 @@
 }
 
 .cards_wrap .card_inner{
-	background: #fff;
+	background: rgba(255, 255, 255, 0);
 	border-radius: 5px;
 	padding: 35px 20px;
 	min-width: 225px;
@@ -48,6 +48,7 @@
 	width: 80px;
 	height: 80px;
 	margin-bottom: 5px;
+	
 }
 
 .cards_wrap .card_item .role_name{
@@ -71,7 +72,7 @@
 .cards_wrap .card_item .film{
 	font-size: 14px;
 	line-height: 24px;
-	color: #333;
+	color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 1024px){

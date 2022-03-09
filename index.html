@@ -7,7 +7,7 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="HELLO, I'M JAY, A SELF - TAUGHT WEB DEVELOPER FROM POB. GUIPOS ZAMBOANGA DEL SUR, PHILIPPINES.">
+        content="HELLO, I'M JAY, A SELF - TAUGHT WEB DEVELOPER AND ANIMATOR FROM POB. GUIPOS ZAMBOANGA DEL SUR, PHILIPPINES.">
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="" /> <!-- website name -->
     <meta property="og:site" content="" /> <!-- website link -->
@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/works.css">
+    <link rel="stylesheet" href="css/modal-anim.css">
 
     <link rel="stylesheet" href="css/modal-video.css">
 
@@ -90,7 +91,7 @@
                     <a class="nav-link page-scroll">+63 966 561 6586</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll">Last update: 1-7-2022</a>
+                    <a class="nav-link page-scroll">Last update: 3-9-2022</a>
                 </li>
             </ul>
             <span class="nav-item social-icons">
@@ -119,7 +120,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="text-container">
-                            <h1>I'M JAY <br>A FREELANCE WEB <span id="js-rotating">DEVELOPER, DESIGNER</span></h1>
+                            <h1>I'M JAY <br>A FREELANCE <span id="js-rotating">WEB DEVELOPER,WEB DESIGNER, ANIMATOR</span></h1>
                             <p class="p-large">Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code.</p>
                             <a class="btn-solid-lg page-scroll" href="#" id="myBtnUpdate"><i
                                     class="fa fa-newspaper"></i>
@@ -137,6 +138,16 @@
                                     <div class="text-block">
                                         <h4>My Works</h4>
                                         <a href="#" id="myBtnWorks">
+                                            <span class="slider-view fa fa-eye"></span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="carousel__item">
+                                    <img src="images/animation.png" />
+                                    <div class="text-block">
+                                        <h4>My Animations</h4>
+                                        <a href="#" id="myBtnAnim">
                                             <span class="slider-view fa fa-eye"></span>
                                         </a>
                                     </div>
@@ -188,23 +199,6 @@
 
 
 
-    <div id="myModalAbout" class="modal-video">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-
-            <div class="modal-body">
-                <span class="close-About">&times;</span><br><br><br>
-                <p>NOTE: Refresh the page if accidentally close video page.</p>
-                <video width="400" controls>
-                    <source src="final.mp4" type="video/mp4" />
-                    <source src="final.mp4" type="video/ogg" />
-                </video>
-    
-            </div>
-        </div>
-    </div>
-
 
     <div id="myModalWorks" class="modal">
 
@@ -221,11 +215,11 @@
                     <button class="tablinks" onclick="openCity(event, 'Django')">Django</button>
                     <button class="tablinks" onclick="openCity(event, 'React')">React</button>
                     <button class="tablinks" onclick="openCity(event, 'HTML')">HTML</button>
+                    <button class="tablinks" onclick="openCity(event, 'Animation')">Animation</button>
                 </div>
 
                 <div id="PHP" class="tabcontent">
                    <br><br><br>
-
                     <div class="whole-cards">
                         <div class="flip-card">
                             <div class="flip-card-inner">
@@ -278,52 +272,39 @@
                 </div>
 
 
-
-
-
                 <div id="Django" class="tabcontent"> <br><br>
-                     <div class="container-all">
-                            <div class="container-gal">
-                                <img src="myWorks/works-idle/django.png" alt="">
-
-                            </div>
-                            <div class="container-gal">
-                                <img src="myWorks/works-idle/django.png" alt="">
-                            </div>
-                            <div class="container-gal">
-                                <img src="myWorks/works-idle/django.png" alt="">
-
-                            </div>
-
+                    <div class="container-all">
+                        <div class="container-gal">
+                            <img src="myWorks/works-idle/django.png" alt="">
                         </div>
+
+                        <div class="container-gal">
+                            <img src="myWorks/works-idle/django.png" alt="">
+                        </div>
+
+                        <div class="container-gal">
+                            <img src="myWorks/works-idle/django.png" alt="">
+                        </div>
+                    </div>
                 </div>
-
-
-
-
 
                 <div id="React" class="tabcontent"> <br><br>
-                        <div class="container-all">
-                            <div class="container-gal">
-                                <img src="myWorks/works-idle/react.png" alt="">
-
-                            </div>
-                            <div class="container-gal">
-                                <img src="myWorks/works-idle/react.png" alt="">
-                            </div>
-                            <div class="container-gal">
-                                <img src="myWorks/works-idle/react.png" alt="">
-
-                            </div>
-
+                    <div class="container-all">
+                        <div class="container-gal">
+                            <img src="myWorks/works-idle/react.png" alt="">
                         </div>
+
+                        <div class="container-gal">
+                            <img src="myWorks/works-idle/react.png" alt="">
+                        </div>
+
+                        <div class="container-gal">
+                            <img src="myWorks/works-idle/react.png" alt="">
+                        </div>
+                    </div>
                 </div>
 
-
-
-
                 <div id="HTML" class="tabcontent"><br><br>
-
                         <div class="whole-cards">
                             <div class="flip-card">
                                 <div class="flip-card-inner">
@@ -371,9 +352,7 @@
                                     <p class="card-text-works">Able to make design during my practice.</p> 
                                   </div>
                                 </div>
-                            </div>
-
-                            
+                            </div>          
                         </div> 
                 </div>
             </div>
@@ -382,14 +361,24 @@
 
 
 
-    <div id="myModalAchieve" class="modal">
+   
+        <div id="myModalAnim" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-body">      
+                    <span class="close-Anim">&times;</span>
+                    <iframe src="AE_section/index.html" frameborder="0" class="ae-iframe"></iframe>
+                </div>
+            </div>
+        </div>
+  
 
+
+<span class="close-Achieve">
+    <div id="myModalAchieve" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
-
-            <div class="modal-body">
-
-                <span class="close-Achieve">&times;</span>
+            <div class="modal-body">      
                 <h2 style="text-align: center;">My Achievements</h2>
                 <br><br><br>
                 <div class="container-achieve">
@@ -418,30 +407,21 @@
                         <div class="gallery-item">
                             <img class="gallery-image" src="images/achievements/PHP_certificate.jpg">
                         </div>
-
                     </div>
-
                 </div>
-
-
             </div>
         </div>
     </div>
+</span>
 
 
 
-
-
+<span class="close-About">
     <div id="myModalAbout" class="modal">
-
         <!-- Modal content -->
         <div class="modal-content">
-
             <div class="modal-body">
-                <span class="close-About">&times;</span>
-
                 <div class="about-section">
-
                     <div class="inner-container">
                         <h1>About Me</h1>
                         <p class="text-about">
@@ -465,8 +445,9 @@
             </div>
         </div>
     </div>
+</span>
 
-
+<span class="close-Skills">
     <div id="myModalSkills" class="modal">
 
         <!-- Modal content -->
@@ -476,7 +457,7 @@
 
 
                 <div class="wrapper">
-                    <div class="header">MY SKILLS<span class="close-Skills">&times;</span></div>
+                    <div class="header">MY SKILLS&times;</div>
 
                     <div class="cards_wrap">
                         <div class="card_item">
@@ -550,7 +531,7 @@
                                 <div class="real_name">
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                 </div>
@@ -565,8 +546,8 @@
                                 <div class="role_name">PHP</div>
                                 <div class="real_name">
                                     <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                 </div>
@@ -624,6 +605,24 @@
                                     to type something, then I'm your man.</div>
                             </div>
                         </div>
+
+                        <div class="card_item">
+                            <div class="card_inner">
+                                <img src="images/AE.png" class="img-skills">
+                                <div class="role_name">Adobe AE</div>
+                                <div class="real_name">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <div class="film">I've been practicing Video editing these few days, since I'm a designer and animator 
+                                    in PowerPoint, I can catch up pretty fast and learn all the basics of Adobe After Effects 
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="card_item">
                             <div class="card_inner">
                                 <img src="images/powerpoint.png" class="img-skills">
@@ -645,13 +644,9 @@
             </div>
         </div>
     </div>
-
-
-
+</span>
 
     <div id="myModalUpdate" class="modalUpdate">
-
-
         <!-- Modal content -->
         <div class="modal-contentUpdate">
             <span class="closeUpdate">
@@ -659,6 +654,8 @@
             </span>
         </div>
     </div>
+
+
     <!-- Scripts -->
     <script src="js/slider.js"></script>
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
@@ -673,6 +670,8 @@
     <script src="js/modal-about.js"></script>
     <script src="js/modal-achieve.js"></script>
     <script src="js/modal-works.js"></script>
+    <script src="js/modal-anim.js"></script>
+
 </body>
 
 </html>

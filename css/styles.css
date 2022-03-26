@@ -202,9 +202,9 @@ a.white {
 
 
 .navbar-custom {
-	backdrop-filter: blur(1px) saturate(180%);
-    -webkit-backdrop-filter: blur(1px) saturate(180%);
-    background-color: rgba(0, 0, 0, 0.75);
+	backdrop-filter: blur(2px) saturate(171%);
+    -webkit-backdrop-filter: blur(2px) saturate(171%);
+    background-color: rgba(0, 0, 0, 0.54);
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 700 0.75rem/2rem "Montserrat", sans-serif;
 	transition: all 0.2s;
@@ -267,9 +267,9 @@ a.white {
 	margin-top: 0;
 	border: none;
 	border-radius: 0.25rem;
-	backdrop-filter: blur(1px) saturate(180%);
-    -webkit-backdrop-filter: blur(1px) saturate(180%);
-    background-color: rgba(0, 0, 0, 0.75);
+	backdrop-filter: blur(2px) saturate(171%);
+    -webkit-backdrop-filter: blur(2px) saturate(171%);
+    background-color: rgba(0, 0, 0, 0.54);
 }
 
 .navbar-custom .dropdown-item {
@@ -278,9 +278,9 @@ a.white {
 }
 
 .navbar-custom .dropdown-item:hover {
-	backdrop-filter: blur(1px) saturate(180%);
-    -webkit-backdrop-filter: blur(1px) saturate(180%);
-    background-color: rgba(0, 0, 0, 0.75);
+	backdrop-filter: blur(2px) saturate(171%);
+    -webkit-backdrop-filter: blur(2px) saturate(171%);
+    background-color: rgba(0, 0, 0, 0.54);
 }
 
 .navbar-custom .dropdown-item .item-text {
@@ -422,9 +422,9 @@ a.white {
 	.navbar-custom.top-nav-collapse {
 		padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		backdrop-filter: blur(1px) saturate(180%);
-    -webkit-backdrop-filter: blur(1px) saturate(180%);
-    background-color: rgba(0, 0, 0, 0.75);
+		backdrop-filter: blur(2px) saturate(171%);
+    -webkit-backdrop-filter: blur(2px) saturate(171%);
+    background-color: rgba(0, 0, 0, 0.54);
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {

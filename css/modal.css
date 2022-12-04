@@ -42,7 +42,7 @@
 .modal p{
   font-size: 20px;
 }
-
+ 
 /* Modal Content */
 .modal-content {
   position: relative;
@@ -50,7 +50,7 @@
   -webkit-backdrop-filter: blur(10px) saturate(200%);
   background-color: rgba(48, 48, 173, 0.096);
   border-radius: 12px;
-  border: 1px solid rgba(255, 145, 0, 0.644);
+  border: 1px solid #00c9db;
   margin: auto;
   padding: 0;
   width: 90%;
